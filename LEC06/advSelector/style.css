@@ -1,0 +1,37 @@
+/* Decendent Selector */
+
+div p{
+    color: aqua;
+}
+
+p{
+    color: red;
+}
+
+/* Child Selector */
+ul>li{
+    color: chartreuse;
+}
+
+
+/* Immediate Sibling */
+
+#hig + h1{
+    color: chocolate;
+}
+
+/* #state + li{
+    color: brown;
+} */
+
+
+/* li + li{
+    color: gold;
+} */
+
+
+
+/* General Sibling */
+#state ~ li{
+    color: blue;
+}

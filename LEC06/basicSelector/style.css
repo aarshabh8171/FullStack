@@ -1,0 +1,38 @@
+/* Element Selector */
+h1{
+    color: red;
+}
+
+p{
+    color: aqua;
+}
+
+/* ID Selector */
+#spcl{
+    color: yellow;
+
+}
+.para{
+    color: green;
+}
+
+
+
+a[href="www.google.com"]{
+    color: brown;
+}
+
+a[href="www.facebook.com"]{
+    color: blue;
+}
+
+a[href="www.github.com"]{
+    color: grey;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
