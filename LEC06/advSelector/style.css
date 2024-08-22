@@ -35,3 +35,22 @@ ul>li{
 #state ~ li{
     color: blue;
 }
+
+
+/* pseudo class */
+
+a:link{
+    color: aqua;
+}
+
+a:visited{
+    color: burlywood;
+}
+
+a:hover{
+    color: green;
+}
+
+a:active{
+    color: brown;
+}
