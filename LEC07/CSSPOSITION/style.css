@@ -18,5 +18,26 @@ Sticky */
 }
 
 #child2{
+    position: absolute;
+    right: 45vm;
+    bottom: 40vh;
+
+}
+
+#child3{
+    position: fixed;
+    top: 0;
+    left: 60vm;
+}
+
+.container{
+    height: 400vh;
+    border: 2px solid green;
+}
+
+#child4{
+    position: sticky;
+
+    top: 20px;
 
 }
