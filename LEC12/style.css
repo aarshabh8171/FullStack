@@ -1,0 +1,28 @@
+.container{
+    height: 250px;
+    width: 250px;
+    border: 2px solid black;
+    margin: 100px auto;
+    box-shadow: 2px 5px 5px;
+
+    /* rotate */
+    /* transform: rotateX(135deg); */
+    /* transform: rotateY(45deg); */
+    /* transform: rotateZ(45deg); */
+    /* transform: rotate(270deg); */
+
+    /* translate */
+    /* transform: translateX(100px); */
+    /* transform: translateY(250px); */
+
+    /* transform: translateZ(100px); */
+     /* transition */
+    transition-duration: 5s ;
+     
+    /* transform: rotate(45deg); */
+
+}
+.container:hover{
+    transform: scale(1.5);
+    transform: skewY(45deg);
+}
